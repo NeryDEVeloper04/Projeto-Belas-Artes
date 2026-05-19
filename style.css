@@ -159,10 +159,11 @@ nav {
 
 .hero-title {
   font-family: 'DM Serif Display', serif;
-  font-size: clamp(3rem, 6vw, 5.5rem);
-  line-height: 1.05;
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  line-height: 1.08;
   color: var(--creme);
   margin-bottom: 2rem;
+  max-width: 850px;
 }
 
 .hero-title em {
