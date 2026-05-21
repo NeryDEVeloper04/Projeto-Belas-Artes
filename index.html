@@ -21,11 +21,19 @@
     <li><a href="#contato">Contato</a></li>
     <li><a href="#in" class="nav-cta">Inscreva-se</a></li>
   </ul>
+  <div class="nav-socials">
+    <a href="https://www.instagram.com/espacovibraz/?hl=pt-br" target="_blank" class="nav-social-link" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    </a>
+    <a href="mailto:espacovibraz@gmail.com" class="nav-social-link" aria-label="Email">
+      <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M4 6H20V18H4V6Z" stroke="currentColor" stroke-width="1.7"/><path d="M4 7L12 13L20 7" stroke="currentColor" stroke-width="1.7"/></svg>
+    </a>
+  </div>
 </nav>
 
 <!-- TICKER -->
 
-<div class="ticker-wrap" style="margin-top: 64px;">
+<div class="ticker-wrap">
   <div class="ticker-track">
     <span class="ticker-item"><span class="ticker-dot"></span> Música & Cultura</span>
     <span class="ticker-item"><span class="ticker-dot"></span> Folk · Jazz · Popular · Erudito</span>
@@ -388,8 +396,7 @@ Mais do que oferecer entretenimento, o projeto cria um ciclo cultural sustentáv
     </h2>
 
     <p class="bar-desc">
-      Durante o dia, a VIBRAZ funciona como um espaço de formação artística,
-      oficinas e encontros culturais. À noite, transforma-se em um ambiente
+      A VIBRAZ à noite, transforma-se em um ambiente
       intimista com apresentações ao vivo, experiências autorais e conexões reais
       através da música e da arte.
     </p>
@@ -413,90 +420,151 @@ Mais do que oferecer entretenimento, o projeto cria um ciclo cultural sustentáv
 
 </section>
 
-<!-- AGENDA -->
-<section class="section-agenda" id="agenda">
-  <div class="agenda-layout">
-    <div class="agenda-sidebar">
-      <p class="section-label">Programação</p>
-      <h2 class="section-title">Próximos<br><em>eventos</em></h2>
-      <p class="section-body">
-        Concertos, apresentações e festivais espalhados por todo o estado. A música VIBRAZ está perto de você.
-      </p>
-      <a href="#" class="btn-primary" style="display:inline-block; margin-top:1rem;">Ver agenda completa</a>
+<!-- AGENDA DA SEMANA -->
+<section class="section-agenda-semana">
+
+  <div class="agenda-semana-header">
+    <p class="section-label">Programação Semanal</p>
+    <h2 class="section-title">Agenda<br><em>da Semana</em></h2>
+    <p class="section-body">Esperamos por vocês! Dois momentos únicos — o dia para criar, a noite para vibrar.</p>
+  </div>
+
+  <div class="agenda-semana-grid">
+
+    <!-- AGENDA DIURNA -->
+    <div class="agenda-card agenda-diurna">
+      <div class="agenda-card-header">
+        <div class="agenda-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12" y1="2" x2="12" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="12" y1="20" x2="12" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="2" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="20" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="agenda-card-title">Agenda Diurna</h3>
+          <span class="agenda-card-subtitle">da semana</span>
+        </div>
+      </div>
+      <p class="agenda-card-tagline">esperamos vocês para criar!</p>
+
+      <div class="agenda-semana-list">
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">13h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Terça</span>
+            <span class="agenda-dia-data">19/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Oficina de Pintura</strong>
+            <span>Cores, Expressão &amp; Criatividade</span>
+          </div>
+        </div>
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">13h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Quarta</span>
+            <span class="agenda-dia-data">20/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Aula de Música</strong>
+            <span>Instrumentos, Voz e Conexão Através do Som</span>
+          </div>
+        </div>
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">13h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Quinta</span>
+            <span class="agenda-dia-data">21/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Oficina de Cerâmica</strong>
+            <span>Arte Manual &amp; Criação Livre</span>
+          </div>
+        </div>
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">13h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Sexta</span>
+            <span class="agenda-dia-data">22/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Teatro e Expressão Corporal</strong>
+            <span>Presença, Interpretação e Criatividade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="agenda-card-footer">VIBRAZ</div>
     </div>
 
-    <div class="agenda-list">
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">23</span>
-          <span class="evento-month">Mai</span>
+    <!-- AGENDA NOTURNA -->
+    <div class="agenda-card agenda-noturna">
+      <div class="agenda-card-header">
+        <div class="agenda-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
-        <div class="evento-info">
-          <p class="evento-title">Coral do VIBRAZ de São Vicente no Museu do Café</p>
-          <p class="evento-local">São Vicente, SP · 15h00</p>
-        </div>
-      </div>
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">25</span>
-          <span class="evento-month">Mai</span>
-        </div>
-        <div class="evento-info">
-          <p class="evento-title">Orquestra Sinfônica de Jundiaí no Espaço Expressa</p>
-          <p class="evento-local">Jundiaí, SP · 19h30</p>
+        <div>
+          <h3 class="agenda-card-title">Agenda Noturna</h3>
+          <span class="agenda-card-subtitle">da semana</span>
         </div>
       </div>
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">27</span>
-          <span class="evento-month">Mai</span>
+      <p class="agenda-card-tagline">esperamos vocês para vibrar!</p>
+
+      <div class="agenda-semana-list">
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">20h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Terça</span>
+            <span class="agenda-dia-data">19/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Gabriel Fernandes</strong>
+            <span>Música Independente &amp; Performance ao Vivo</span>
+          </div>
         </div>
-        <div class="evento-info">
-          <p class="evento-title">Camerata de Violões no SESC Santos</p>
-          <p class="evento-local">Santos, SP · 15h00</p>
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">20h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Quarta</span>
+            <span class="agenda-dia-data">20/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Tim Bernardes</strong>
+            <span>Indie, MPB e Experiências Sonoras</span>
+          </div>
         </div>
-      </div>
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">29</span>
-          <span class="evento-month">Mai</span>
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">20h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Quinta</span>
+            <span class="agenda-dia-data">21/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Ananda Morais</strong>
+            <span>Música, Conexão e Cultura Jovem</span>
+          </div>
         </div>
-        <div class="evento-info">
-          <p class="evento-title">Big Band no Teatro Municipal de São Carlos</p>
-          <p class="evento-local">São Carlos, SP · 19h30</p>
-        </div>
-      </div>
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">30</span>
-          <span class="evento-month">Mai</span>
-        </div>
-        <div class="evento-info">
-          <p class="evento-title">Orquestra de Cordas no Theatro São Pedro</p>
-          <p class="evento-local">São Paulo, SP · 11h00</p>
-        </div>
-      </div>
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">31</span>
-          <span class="evento-month">Mai</span>
-        </div>
-        <div class="evento-info">
-          <p class="evento-title">Regional de Choro no Instituto Tomie Ohtake</p>
-          <p class="evento-local">São Paulo, SP · 11h00</p>
-        </div>
-      </div>
-      <div class="evento-item">
-        <div class="evento-date">
-          <span class="evento-day">13</span>
-          <span class="evento-month">Jun</span>
-        </div>
-        <div class="evento-info">
-          <p class="evento-title">Orquestra Sinfônica no Teatro Dailor Varela</p>
-          <p class="evento-local">São José dos Campos, SP · 11h00</p>
+        <div class="agenda-semana-item">
+          <span class="agenda-hora">20h</span>
+          <div class="agenda-dia-info">
+            <span class="agenda-dia-nome">Sexta</span>
+            <span class="agenda-dia-data">22/05</span>
+          </div>
+          <div class="agenda-atividade">
+            <strong>Rubel</strong>
+            <span>Poesia, Folk e Sentimentos em Forma de Som</span>
+          </div>
         </div>
       </div>
+
+      <div class="agenda-card-footer">VIBRAZ</div>
     </div>
+
   </div>
 </section>
 
